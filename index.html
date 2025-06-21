@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzRec - Simplified Screen and Audio Recording</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-record-vinyl"></i>
+                <span>EzRec</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#how-to-use">How to Use</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#download" class="nav-cta">Download</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Record your screen</span>
+                    <span class="title-line">and your voice</span>
+                    <span class="title-highlight">with simplicity</span>
+                </h1>
+                <p class="hero-description">
+                    EzRec is the perfect tool to capture your screen and record your audio 
+                    with professional quality. Simple, fast and efficient.
+                </p>
+                <div class="hero-buttons">
+                    <a href="EzRec.zip" download class="btn-primary" id="downloadBtn">
+                        <i class="fas fa-download"></i>
+                        Download EzRec
+                        <span class="btn-shine"></span>
+                    </a>
+                    <button class="btn-secondary" id="learnMoreBtn">
+                        <i class="fas fa-play"></i>
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card screen-card">
+                    <i class="fas fa-desktop"></i>
+                    <span>Screen Recording</span>
+                </div>
+                <div class="floating-card audio-card">
+                    <i class="fas fa-microphone"></i>
+                    <span>Audio Recording</span>
+                </div>
+                <div class="central-icon">
+                    <i class="fas fa-record-vinyl"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-animation"></div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section id="how-to-use" class="how-to-use">
+        <div class="container">
+            <h2 class="section-title">How to Use EzRec</h2>
+            <div class="how-to-use-content">
+                <div class="video-container">
+                    <video class="demo-video" controls poster="./placeholder.jpg"></video>
+                        <source src="1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructions">
+                    <h3>Get Started in 3 Simple Steps</h3>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Launch EzRec</h4>
+                                <p>Open the application and select your recording preferences. Choose between screen recording, audio recording, or both simultaneously.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Configure Settings</h4>
+                                <p>Adjust quality settings, select recording area, choose your microphone, and set output format according to your needs.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Start Recording</h4>
+                                <p>Click the record button and start creating your content. Use hotkeys for quick control and stop when you're done.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pro-tips">
+                        <h4><i class="fas fa-lightbulb"></i> Pro Tips</h4>
+                        <ul>
+                            <li>Use <kbd>Ctrl+Shift+R</kbd> to start/stop recording quickly</li>
+                            <li>Test your microphone levels before important recordings</li>
+                            <li>Choose MP4 format for best compatibility</li>
+                            <li>Close unnecessary applications for better performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>HD Screen Capture</h3>
+                    <p>Record your screen in high definition with crystal clear quality for your tutorials and presentations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone-alt"></i>
+                    </div>
+                    <h3>Professional Audio</h3>
+                    <p>Capture your voice with studio quality thanks to our advanced audio recording technology.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Ultra Fast</h3>
+                    <p>Intuitive interface and instant startup. Start recording with just one click.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why Choose EzRec?</h2>
+                    <p>
+                        EzRec was designed to meet the needs of content creators, 
+                        professionals and students looking for a simple 
+                        but powerful tool for their recordings.
+                    </p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check"></i> Intuitive user interface</li>
+                        <li><i class="fas fa-check"></i> Simultaneous screen + audio recording</li>
+                        <li><i class="fas fa-check"></i> Multiple output formats</li>
+                        <li><i class="fas fa-check"></i> Lightweight and performant</li>
+                        <li><i class="fas fa-check"></i> Free and ad-free</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="10000">+20</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="50000">+50</span>
+                        <span class="stat-label">Recordings Created</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="99">+70</span>
+                        <span class="stat-label">% Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Meet the Creator</h2>
+            <div class="team-content">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="1.jpg" alt="Rahil Ibrahim" class="profile-img">
+                        <div class="photo-border"></div>
+                        <div class="photo-glow"></div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Rahil Ibrahim</h3>
+                        <p class="member-title">Developer & Creator of EzRec</p>
+                        <p class="member-description">
+                            Passionate about software development and technological innovation, 
+                            I created EzRec to simplify screen and audio recording for everyone.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/rahil-ibrahim" target="_blank" class="social-link linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/rahil-ibrahim" target="_blank" class="social-link github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://discord.gg/rahil-ibrahim" target="_blank" class="social-link discord">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Download EzRec now and discover the simplicity of professional recording.</p>
+                <a href="EzRec.zip" download class="btn-primary btn-large">
+                    <i class="fas fa-download"></i>
+                    Download EzRec.zip
+                    <span class="btn-shine"></span>
+                </a>
+                <div class="download-info">
+                    <span><i class="fas fa-shield-alt"></i> Secure and virus-free</span>
+                    <span><i class="fas fa-hdd"></i> Size: 15 MB</span>
+                    <span><i class="fas fa-windows"></i> Windows Compatible</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-record-vinyl"></i>
+                    <span>EzRec</span>
+                </div>
+                <p>&copy; 2024 EzRec. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
